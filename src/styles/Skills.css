@@ -1,0 +1,23 @@
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.tag {
+  display: inline-flex;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--color-on-accent);
+  font-weight: 500;
+}
+
+.tag--orange {
+  background: var(--color-accent-orange);
+}
+
+.tag--green {
+  background: var(--color-accent-green);
+}
